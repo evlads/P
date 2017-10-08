@@ -10,7 +10,9 @@ body
   min-width 320px
   position relative
   line-height 1.6
-  
+
+*
+  outline none   
 a
 	text-decoration none
 
@@ -27,10 +29,16 @@ a
 // Общие стили
 @import 'common_styles.styl'
 
-
 // МОДУЛИ
 // Стили шапки
 @import 'modules/header.styl'
+
+// Стили контента
+@import 'modules/information.styl'
+@import 'modules/cta.styl'
+@import 'modules/reviews.styl'
+@import 'modules/price.styl'
+@import 'modules/contacts.styl'
 
 // Стили футера
 @import 'modules/footer.styl'

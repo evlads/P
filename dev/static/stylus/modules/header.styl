@@ -5,7 +5,7 @@
   background #283646 url(../img/general/header-bg.jpg) center no-repeat
   background-size cover
   min-height 855px
-  
+    
   &__top
     position absolute
     width 100%
@@ -19,6 +19,13 @@
       border-bottom 1px solid transparent
 
       min-height 110px
+  
+    &--fixed
+        position fixed
+        background-color rgba(0, 0, 0, .7)
+        .container
+          min-height 66px
+          transition .5s
     
   &__middle
     display flex
@@ -33,9 +40,6 @@
     
     padding-right 10px
     padding-left 10px
-    
-  &__next
-    height 1000px
 
   .logo
     margin-right 185px
@@ -131,7 +135,4 @@
     .page-header__toggle-menu-wrapper
       flex-basis 110px
       background-color #283645
-      border-bottom 1px solid #000  
-
-    
-            
+      border-bottom 1px solid #000         

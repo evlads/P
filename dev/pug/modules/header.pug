@@ -25,15 +25,15 @@ header.page-header
         nav.main-nav
           ul.main-nav__list
             li.main-nav__item
-              a.main-nav__link(href="javascript:void(0);") Информация
+              a.main-nav__link(href="#slogan") Информация
             li.main-nav__item
-              a.main-nav__link(href="javascript:void(0);") Возможности
+              a.main-nav__link(href="#information") Возможности
             li.main-nav__item
-              a.main-nav__link(href="javascript:void(0);") Отзывы
+              a.main-nav__link(href="#reviews") Отзывы
             li.main-nav__item 
-              a.main-nav__link(href="javascript:void(0);") Стоимость
+              a.main-nav__link(href="#price") Стоимость
 
-  div.page-header__middle
+  div.page-header__middle#slogan
     div.container
 
       div.slogan
@@ -53,5 +53,3 @@ header.page-header
           source(media="(max-width: 1199px)" srcset=logo + "-md.png, " + logo + "-md@2x.png 2x, " + logo + "-md@3x.png 3x")
           source(media="(min-width: 1200px)" srcset=logo + "-lg.png, " + logo + "-lg@2x.png 2x, " + logo + "-lg@3x.png 3x")
           img.promo-picture__img(src=logo + "-lg.png")
-          
-div.page-header__next
